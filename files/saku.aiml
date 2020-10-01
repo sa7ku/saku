@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	     <pattern>hello</pattern>
+	 <template>i am saku,how may i help you?</template>
+	</category>
+	<category>
+	    <pattern>help</pattern>
+	    <template>these are the commands available 1. hello 2.</template>
+	</category>
+	<category>
+	    <pattern>Tell me about *</pattern>
+	    <template>Here is some information about  <star/>
+	    <button>
+	        <text>click here</text>
+	        <url>https://en.wikipedia.org/wiki/<star/></url>
+	    </button>
+	    </template>
+	</category>
+</aiml>
